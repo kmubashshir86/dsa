@@ -1,5 +1,8 @@
 #include <iostream>
 #include <vector>
+
+// 2 pointer approach
+
 using namespace std;
 
 int main(void) {
