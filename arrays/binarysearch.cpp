@@ -2,7 +2,7 @@
 using namespace std;
 
 int avg(int a,int b){
-    return (a+b)/2;
+    return a+ (b-a)/2;
 }
 
 int main(void) {
@@ -10,7 +10,7 @@ int main(void) {
     int key =9;
     int start=0,end=9;
     // 3
-    while(start!=end){
+    while(start<=end){
         
     if (arr[avg(start,end)]==key){
         cout<<"found\n";
